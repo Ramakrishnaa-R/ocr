@@ -1,0 +1,11 @@
+# Ultralytics YOLO, AGPL-3.0 license
+# Medical Pills (2-class: occupied + vacant)
+
+path: E:/FOS/ocr/archive
+train: train/images
+val: valid/images
+
+# Classes
+names:
+  0: occupied
+  1: vacant

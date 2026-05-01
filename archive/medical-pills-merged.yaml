@@ -1,0 +1,12 @@
+# Merged dataset: archive (YOLO) + pillsPicture (Pascal VOC → YOLO)
+# Total: ~244 train images, ~45 valid images
+# Class 0 = pill (occupied)
+# Class 1 = vacant (from image_blue.png annotation)
+
+path: E:/FOS/ocr/archive
+train: train/images
+val: valid/images
+
+names:
+  0: pill
+  1: vacant
